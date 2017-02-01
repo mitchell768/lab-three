@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class LifeController : Controller
+public class LifeInsuranceController : Controller
 {
     public IActionResult Index ()
     {
