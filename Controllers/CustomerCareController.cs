@@ -8,11 +8,11 @@ public class CustomerCareController : Controller
         return Ok("This is the index of the Customer Care Page");
     }
         [Route("fileclaim")]
-        public IActionResult NewClaims ()
+        public IActionResult NewClaim ()
     {
         return Ok("This is the page to file a new Claim");
     }
-    [Route("claimstatus")]
+    [Route("myclaims")]
 
     public IActionResult ClaimHistory()
     {
