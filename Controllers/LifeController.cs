@@ -4,7 +4,8 @@ public class LifeController : Controller
 {
     public IActionResult Index ()
     {
-        return Ok("This is the index of the Life Insurance Page");
+        //return Ok("This is the index of the Life Insurance Page");
+        return View();
     }
         public IActionResult Quote ()
     {

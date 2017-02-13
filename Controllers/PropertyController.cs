@@ -4,7 +4,8 @@ public class PropertyController : Controller
 {
     public IActionResult Index ()
     {
-        return Ok("This is the index of the Home Insurance Page");
+        //return Ok("This is the index of the Home Insurance Page");
+        return View();
     }
 
         public IActionResult Quote ()
